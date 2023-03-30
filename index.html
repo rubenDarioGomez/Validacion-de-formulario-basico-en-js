@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+
+<body>
+
+    <main id="mainContainer">
+
+        <div class="container">
+
+            <div class="form">
+
+                <form onsubmit="return validate()"  >
+                    <fieldset>
+                        <legend>inscripcion</legend>
+
+                        <input id="name" type="text" placeholder="Nombre completo">
+                        <input id="age" type="number" placeholder="Edad">
+                        <input id="phone" type="number" placeholder="Telefono">
+                        <input id="address" type="text" placeholder="Direccion">
+                        <button type="submit" class="btn" id="btn" value="Registro">Enviar</button>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

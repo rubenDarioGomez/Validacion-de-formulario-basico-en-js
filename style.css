@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #006400;
+}
+
+.container {
+    margin: 0 auto;
+    width: 10 0%;
+    background-color: #fff000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+
+}
+
+.form {
+    width: 80%;
+    background-color: #ccc;
+    padding: 10px;
+    text-transform: uppercase;
+    color: brown;
+}
+
+.form input, .btn {
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form .btn{
+    background-color: red;
+    color: #ccc;
+}
